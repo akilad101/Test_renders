@@ -30,6 +30,7 @@ fig_2 = go.Figure(go.Indicator(
 # Create dash app
 
 app=dash.Dash()
+server=app.server
 
 # Define the layout of the dashboard
 
